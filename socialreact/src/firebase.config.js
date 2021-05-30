@@ -1,7 +1,8 @@
 import firebase from 'firebase';
+import API_KEY from './API_KEY.config';
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBIlfR2nZhG9JWEHXi3ll3U1eoasyYa5X8",
+    apiKey: API_KEY,
     authDomain: "socialreact-d64cb.firebaseapp.com",
     databaseURL: "https://socialreact-d64cb-default-rtdb.firebaseio.com",
     projectId: "socialreact-d64cb",
